@@ -53,13 +53,13 @@ Settings = Window:AddTab({ Title = "Settings", Icon = "settings" }),
 Aim = Window:AddTab({ Title = "💣 PvP Hacks", Icon = "bow-arrow" }),
 bf = Window:AddTab({ Title = "Blox Fruits Scripts", Icon = "bow-arrow" }),
 sp = Window:AddTab({ Title = "Sailor Piece", Icon = "bow-arrow" }),
-ngh = Window:AddTab({ Title = "99 Night in the Forest", Icon = "" }),
+ngh = Window:AddTab({ Title = "99 Night", Icon = "" }),
 }
 
 -- MAIN TAB
 Tabs.Main:AddParagraph({
 Title = "READ ME !!",
-Content = "This script was created by JoJo.\nWe are not responsible for any consequences arising from copying, modifying, or publishing it.\n\nThanks for using JoJo HUB"
+Content = "This script was created by JoJo.\nThanks for using JoJo HUB"
 })
 
 Tabs.Main:AddParagraph({
@@ -521,6 +521,22 @@ Tabs.sp:AddButton({
     Description = "OUTO FARM DUPE OUTO KILL AND MORE.... ",
     Callback = function()
         loadstring(game:HttpGet("https://link.trwxz.com/LS-Zee-Hub-VIP"))()
+    end
+})
+
+Tabs.bf:AddButton({
+    Title = "Centudox HUB keyless AimBot Hack",
+    Description = "Ezz Bounty Aimbot Aimlock Outo Skill and more.....",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ParadozCode/CentuDox-Hub-Paradoz-Hub/refs/heads/main/CentudoxLoader.xyz", true))()
+    end
+})
+
+Tabs.ngh:AddButton({
+    Title = "H4X HUB best 99 night in the forest Script",
+    Description = "Bro this script have all features OPPPPPP!!!!",
+    Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()
     end
 })
 
